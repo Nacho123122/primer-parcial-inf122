@@ -1,0 +1,181 @@
+:root{
+    --white:#ffffff;
+    --black:#000000;
+    --clear-grey: #A3ABB2;
+    --yellow:#FFE071;
+    --grey: #3D3D3D;
+}
+.body{
+    font-family: "Poppins";
+    background-color: var(--black);
+    margin: 0px 0px 0px 0px;
+}
+.main{
+    width: 100%;
+    height: 100%; 
+    display: grid;
+    place-items: center;
+    background-color: var(--black);
+    margin: 0px 0px 0px 0px ;
+}
+.name{
+    width: 631px;
+    height: 215px;
+    display: flex;
+    flex-direction: row;
+    
+    background-color: #000000;
+    color: var(--clear-grey);
+    margin: 100px 0 20px 0;
+}
+.principal-picture img{
+    width: 215px;
+    height: 215px;
+    border-radius: 150px;
+    margin: 10px 20px 0px 20px ;
+    align-items: flex-end;
+}
+.redes img{
+    width: 36px;
+    height: 36px;
+    margin: 20px 10px 0px 10px;
+}
+
+
+
+
+
+
+
+
+.cv{
+    width: 634px;
+    height: 142px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #000000;
+    margin: 0 0 20px 0;
+}
+.box{
+    margin: 20px 20px 20px 20px ;
+    width: 148px ;
+    height: 102px;
+    text-align: center;
+}
+.box p{
+    color: var(--clear-grey);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button{
+    width: 618px;
+    height: 80px;
+    background-color:var(--black);
+    display: flex;
+    flex-direction: row;
+}
+.download button{
+    width: 290px;
+    height: 80px;
+    background-color: var(--yellow);
+    color: var(--grey);
+}
+.Contac button{
+    width: 290px;
+    background-color: var(--black);
+    text-align: center;
+    height: 80px;
+    color: var(--clear-grey);
+}
+.medio{
+    width: 38px;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills{
+    width: 756px;
+    height: 132px;
+    margin: 40px 0 10px 0;
+    background-color: #000000;
+    color: var(--clear-grey);
+    display: flex;
+    flex-direction: row;
+}
+.port{
+    width: 349px;
+    height: 80px;
+    text-align: center
+}
+.ski{
+    width: 349px ;
+    height: 80px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.page{
+    width: 757px;
+    height: 826px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+.figure img{
+    width: 362px;
+    height: 226px;
+    border-radius: 15px;
+}
+.box-yellow{
+    background-color: var(--yellow);
+    width: 362px;
+    height: 226px;
+    display: grid;
+    grid-column: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+.h2{
+    
+}
+.box-content{
+    
+}
+
+@mode(max-width: 768px){
+    .page{
+        width: 357px;
+        height: 426px;
+        display: grid;
+        grid-column: auto;
+    }
+}
