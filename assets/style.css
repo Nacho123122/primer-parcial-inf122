@@ -171,11 +171,22 @@
     
 }
 
-@mode(max-width: 768px){
+@media(max-width: 1000px){
+    .main{
+        height: 100%;
+        width: 100%;
+    }
     .page{
         width: 357px;
         height: 426px;
         display: grid;
-        grid-column: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+    }
+    .figure img{
+        margin: 20px 0 20px 0;
+    }
+    .box-yellow{
+        margin: 20px 0 20px 0;
     }
 }
